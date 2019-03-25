@@ -116,18 +116,6 @@ if Input_Wind == 1:
 else:
     Wind = 'Weak'
 
-x1 = Outlook +_Yes
-
-print(x1)
-print(x1*2)
-#MAP_Yes = ((int(Outlook)_Yes)/Play_Tennis_Yes) * (Cool_Yes/Play_Tennis_Yes) * (High_Yes/Play_Tennis_Yes) * (Strong_Yes/Play_Tennis_Yes)) * (Play_Tennis_Yes/count)
-
-
-
-
-
-
-
 
 
 
