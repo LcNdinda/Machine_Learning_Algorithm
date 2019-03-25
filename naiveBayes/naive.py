@@ -106,9 +106,6 @@ elif Input_Temperature == 2:
 else:
     Temperature = 'Mild'
 
-{
- Temperature: 45
-}
 if Input_Humidity == 1:
     Humidity = 'High'
 else:
