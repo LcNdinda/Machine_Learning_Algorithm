@@ -81,43 +81,19 @@ with open('naive.csv', 'r') as csv_file:
 print(f"The probability of Yes is {Play_Tennis_Yes}/{count}")
 print(f"The probability of No is {Play_Tennis_No}/{count}")
 
-print("Enter Your Recorded Weather")
-print("Select Outlook: 1.Sunny 2.Overcast 3.Rain")
-Input_Outlook = input()
-print("Select Temperature: 1.Hot 2.Cool 3.Mild")
-Input_Temperature = input()
-print("Select Humidity: 1.High 2.Normal")
-Input_Humidity = input()
-print("Select Wind: 1.Strong 2.Weak")
-Input_Wind = input()
-
-
-if Input_Outlook == 1:
-    Outlook = Sunny
-elif Input_Outlook == 2:
-    Outlook = 'Overcast'
-else:
-    Outlook = 'Rain'
-
-if Input_Temperature == 1:
-    Temperature = 'Hot'
-elif Input_Temperature == 2:
-    Temperature = 'Cool'
-else:
-    Temperature = 'Mild'
-
-if Input_Humidity == 1:
-    Humidity = 'High'
-else:
-    Humidity = 'Normal'
-
-if Input_Wind == 1:
-    Wind = 'Strong'
-else:
-    Wind = 'Weak'
+# print("Enter Your Recorded Weather")
+# print("Select Outlook: 1.Sunny 2.Overcast 3.Rain")
+# Input_Outlook = input()
+# print("Select Temperature: 1.Hot 2.Cool 3.Mild")
+# Input_Temperature = input()
+# print("Select Humidity: 1.High 2.Normal")
+# Input_Humidity = input()
+# print("Select Wind: 1.Strong 2.Weak")
+# Input_Wind = input()
 
 
 
+#x = outlook = sunny, Temperature = cool, Humidity = High, wind = strong
 
 # Calculating Probability using MAP
 MAP_Yes = ((Sunny_Yes/Play_Tennis_Yes) * (Cool_Yes/Play_Tennis_Yes) * (High_Yes/Play_Tennis_Yes) * (Strong_Yes/Play_Tennis_Yes)) * (Play_Tennis_Yes/count)
